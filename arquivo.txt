@@ -4,3 +4,5 @@ ssh-keygen -t rsa -f "/c/Users/<seu-usuario>/.ssh/<nome-chave>" -C "<seu-email>"
 # Quando fechar o terminal preciso executar isso
 evail "$(ssh-agent -s)"
 ssh-add /c/Users/<seu-usuario>/.ssh/<nome-chave>
+
+# Oi
